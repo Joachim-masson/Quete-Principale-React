@@ -12,7 +12,7 @@ function MenuItem(props) {
 		<section className="itemContainer">
 			<figure className="imgContainer">
 				{/* the image will receive the url src from the props */}
-				<img src={props.foodImage} alt={props.description} />
+				<img src={props.foodImage} alt={props.itemName} />
 				<figcaption>
 					{/* the h2 will receive the item name from the props */}
 					<h2>{props.itemName}</h2>

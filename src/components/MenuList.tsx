@@ -1,17 +1,19 @@
 import MenuItem from "./MenuItem.tsx";
 
-interface foodItems {
-	foodItems: {
-		id: number;
-		itemName: string;
-		description: string;
-		foodImage: string;
-		price: number;
-		isFavorite: boolean;
-	};
+interface foodItem {
+	id: number;
+	itemName: string;
+	description: string;
+	foodImage: string;
+	price: number;
+	isFavorite: boolean;
 }
 
-function MenuList({ foodItems }: foodItems) {
+interface MenuListProps {
+	foodItems: foodItem[];
+}
+
+function MenuList({ foodItems }: MenuListProps) {
 	console.log(foodItems);
 
 	return (
