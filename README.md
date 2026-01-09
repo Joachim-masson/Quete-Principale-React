@@ -1,3 +1,60 @@
+
+# React - Quête principale
+
+Main quest for learning React - Wide Code School
+
+
+## Tech Stack
+
+**Client:** React, TypeScript, CSS
+
+**Server:** None
+
+
+## Acknowledgements
+
+ - Creation of components
+ - use of rendering
+- transmission of props
+- ternary operator
+- use of useState
+
+
+## Authors
+
+- Wide Code School
+- Joachim MASSON
+
+
+## Features
+
+- Favorite toggle
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone git@github.com:Joachim-masson/Quete-Principale-React.git
+```
+
+Go to the project directory
+
+```bash
+  cd Quete-Principale-React
+```
+
+Start the server
+
+```bash
+  node index.js
+```
+
+## Original ReadMe fprm the Wide Code School :
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
